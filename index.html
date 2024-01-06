@@ -1,11 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+    />
+    <title>Background slider</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="slider-container">
+      <div
+        class="slide active"
+        style="
+          background-image: url('https://images.unsplash.com/photo-1536782376847-5c9d14d97cc0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZnJlZXxlbnwwfHwwfHx8MA%3D%3D');
+        "
+      ></div>
+
+      <div
+        class="slide"
+        style="
+          background-image: url('https://images.unsplash.com/photo-1501183007986-d0d080b147f9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZnJlZXxlbnwwfHwwfHx8MA%3D%3D');
+        "
+      ></div>
+
+      <div
+        class="slide"
+        style="
+          background-image: url('https://images.unsplash.com/photo-1509514026798-53d40bf1aa09?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZyZWV8ZW58MHx8MHx8fDA%3D');
+        "
+      ></div>
+
+      <div
+        class="slide"
+        style="
+          background-image: url('https://media.istockphoto.com/id/1439643582/fr/photo/horizon-de-new-york-et-statue-de-la-libert%C3%A9-au-cr%C3%A9puscule.webp?b=1&s=170667a&w=0&k=20&c=sEQ6kdk_ljyNgIAWED7HX6Z8jVKBjHiXezVERCKwWQw=');
+        "
+      ></div>
+
+      <div
+        class="slide"
+        style="
+          background-image: url('https://media.istockphoto.com/id/1859655832/fr/photo/collines-comme-des-vestiges-d%C3%A9ons-d%C3%A9rosion.webp?b=1&s=170667a&w=0&k=20&c=3myoGloeVb7DwjIkV65PfSTtpgG5K8IulWVT2Pe5FDc=');
+        "
+      ></div>
+
+      <button class="arrow left-arrow" id="left">
+        <i class="fas fa-arrow-left"></i>
+      </button>
+
+      <button class="arrow right-arrow" id="right">
+        <i class="fas fa-arrow-right"></i>
+      </button>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>
